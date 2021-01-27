@@ -17,3 +17,4 @@ There are total eight test cases for all possible scenarios.
 | Amount > £21 < £500 | ExpensivePaymentGateway | Redirected to ExpensivePaymentGateway | Transaction Sucessful | Pass |
 | Amount > £500 | PremiumPaymentGateway | Redirected to PremiumPaymentGateway | Transaction Successful | Pass |
 | Wrong attempt in PremiumPaymentGateway | Retry for 3 times | Retry for 3 times | Transaction Successful | Pass |
+| Any Other Error | 500 Server Error | 500 Server Error | Transaction Failed | Pass |
